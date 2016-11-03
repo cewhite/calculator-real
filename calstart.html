@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<FORM NAME="Calc">
+<TABLE BORDER=4>
+<INPUT TYPE="text"   NAME="Input" Size="16">
+
+<tr>
+<TD>
+<input class="numbers" type="button" name="clear" value="C" onclick="Calc.Input.value=''">
+<INPUT TYPE="button" NAME="pos/neg"  VALUE="  +/- " OnClick="Calc.Input.value += ' +/- '">
+<INPUT TYPE="button" NAME="percent"  VALUE="  % " OnClick="Calc.Input.value += ' % '">
+<INPUT TYPE="button" NAME="divide"  VALUE="  / " OnClick="Calc.Input.value += ' / '">
+</td>
+</tr>
+<TR>
+<TD>
+<INPUT TYPE="button" NAME="seven"   VALUE="  7  " OnClick="Calc.Input.value += '7'"> 
+<INPUT TYPE="button" NAME="eight"   VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<input type="button" Name="nine"    VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<INPUT TYPE="button" NAME="multipy"  VALUE=" * " OnClick="Calc.Input.value += ' * '">
+</td>
+</tr>
+<TR>
+<TD>
+<INPUT TYPE="button" NAME="four"   VALUE=" 4  " OnClick="Calc.Input.value += '4'"> 
+<INPUT TYPE="button" NAME="five"   VALUE=" 5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" NAME="six"   VALUE=" 6  " OnCLick="Calc.Input.value += '6'">
+<INPUT TYPE="button" NAME="subtract"   VALUE=" -  " OnCLick="Calc.Input.value += '-'">
+</td>
+</tr>
+<tr>
+<td>
+<INPUT TYPE="button" NAME="one"   VALUE=" 1  " OnClick="Calc.Input.value += '1'"> 
+<INPUT TYPE="button" NAME="two"   VALUE=" 2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" NAME="three"   VALUE=" 3  " OnCLick="Calc.Input.value += '3'">
+<INPUT TYPE="button" NAME="subtract"   VALUE=" -  " OnCLick="Calc.Input.value += '-'">
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="zero"  value=" 0 "  OnClick="Calc.Input.value +=' 0'">
+<input type="button" name="decimal" value=" . "OnClick="Calc.Input.value +='.'">
+<INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+</TD>
+</TR>
+</TABLE>
+</FORM>
+<style type="text/css">
+	
+</style>
+
+</body>
+</html>
+
+
